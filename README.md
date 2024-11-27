@@ -157,21 +157,8 @@ The YARA rules detect the following specific indicators:
    - Auto-execution indicators
    - Shell command presence
 
-## Implementation Guide
 
-1. **Installation**:
-   ```bash
-   # Save rules to file
-   nano corrupted_zip_detection.yar
-   
-   # Run against specific file
-   yara -r corrupted_zip_detection.yar suspicious_file.zip
-   
-   # Scan directory
-   yara -r corrupted_zip_detection.yar /path/to/scan
-   ```
-
-2. **Interpretation**:
+ **Interpretation**:
    - `Suspicious_Corrupted_ZIP_File`: Indicates maliciously corrupted ZIP
    - `Suspicious_Office_Recovery_File`: Shows suspicious Office document
    - `ZIP_Structure_Anomaly`: Reveals ZIP structure manipulation
