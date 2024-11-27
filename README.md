@@ -176,12 +176,4 @@ The YARA rules detect the following specific indicators:
    - `Suspicious_Office_Recovery_File`: Shows suspicious Office document
    - `ZIP_Structure_Anomaly`: Reveals ZIP structure manipulation
 
-## Response Actions
-
-If detection occurs:
-1. Quarantine the file immediately
-2. Do not attempt to open or repair
-3. Log the detection details
-4. Report to security team
-5. Preserve for analysis
 
